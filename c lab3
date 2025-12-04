@@ -1,0 +1,14 @@
+//convertion of fahrenheit to celcius
+#include<stdio.h>
+main()
+{
+	float C,F,NEWC,NEWF;
+	printf("enter temp in celcius");
+	scanf("%f",&C);
+	NEWF=1.8*C+32;
+	printf("the temp in fahrenheit is %f",NEWF);
+	printf("enter temp in fahrenheit");
+	scanf("%f",&F);
+	NEWC=(F-32)/1.8;
+	printf("the temp in celcius is %f",NEWC);
+}
