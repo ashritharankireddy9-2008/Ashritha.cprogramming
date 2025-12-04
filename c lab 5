@@ -1,0 +1,13 @@
+//program to find simple interest and compound interest
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	float p,t,r,si,ci;
+	printf("enter p,t,r");
+	scanf("%f%f%f",&p,&t,&r);
+	si=p*t*r/100;
+	ci=p*pow(1+r/100,t)-p;
+	printf("the simple interest is %f",si);
+	printf("the compound interest is %f/",ci);
+}
