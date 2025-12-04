@@ -1,0 +1,10 @@
+//program to find distance travelled by object
+#include<stdio.h>
+main()
+{
+	float u,t,a,s;
+	printf("enter u,t,a");
+	scanf("%f%f%f",&u,&t,&a);
+	s=u*t+0.5*a*t*t;
+	printf("the distance travelled is %f",s);
+}
