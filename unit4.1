@@ -1,0 +1,17 @@
+//fumction without argument without return type
+#include<stdio.h>
+void addition();
+main()
+{
+	addition();//function calling
+	addition();
+	addition();
+}
+void addition()//function definition
+{
+	int a,b,c;
+	printf("enter a&b values");
+	scanf("%d%d",&a,&b);
+	c=a+b;
+	printf("the sum is %d",c);
+}
